@@ -1,5 +1,3 @@
-
-
 .img-circle {
     border-radius: 50%;
 
@@ -8,4 +6,21 @@
 .thumbnail {
     display: inline-block;
     text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #c5b9bf;
+}
+
+.caption text-center {
+    border-style: solid;
+    border-width: thin;
+    background-color: dimgrey;
+    /* the code above .caption and thumbnail text align: center is not working */
+}
+
+.thumbnail-center {
+    border-style: solid;
+    border-width: thin;
+    border-color: #c5b9bf;
+    margin-bottom: 10px;
 }
