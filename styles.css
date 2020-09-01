@@ -1,26 +1,32 @@
-.img-circle {
-    border-radius: 50%;
-
+#title,
+h2 {
+  text-align: center;
+}
+#main {
+  margin: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
 }
 
-.thumbnail {
-    display: inline-block;
-    text-align: center;
-    border-style: solid;
-    border-width: thin;
-    border-color: #c5b9bf;
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
-.caption text-center {
-    border-style: solid;
-    border-width: thin;
-    background-color: dimgrey;
-    /* the code above .caption and thumbnail text align: center is not working */
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
 }
 
-.thumbnail-center {
-    border-style: solid;
-    border-width: thin;
-    border-color: #c5b9bf;
-    margin-bottom: 10px;
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
 }
